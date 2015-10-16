@@ -1,0 +1,18 @@
+// Base files
+@import  'base/_normalize';
+
+// Mixins and variables
+@import '_mixins';
+@import '_variables';
+
+// Pages
+@import  'pages/_about';
+@import  'pages/_home';
+
+// Templates
+@import  'templates/_category';
+@import  'templates/_footer';
+@import  'templates/_header';
+@import  'templates/_index';
+@import  'templates/_page';
+@import  'templates/_single';
