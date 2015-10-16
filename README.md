@@ -1,5 +1,5 @@
 # Less Structures
-3 structures to kick off you less-based project
+3 structures to kick start you less-based project
 
 Based on the patterns described [here](http://modernweb.com/2014/04/14/organizing-your-css-code-for-preprocessors/), I've chosen three structures that looks better IMHO.
 
