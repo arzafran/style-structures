@@ -10,4 +10,4 @@ Suitable for medium to large-sized projects, uses a different stylesheet for eve
 Works best for designers, but is a good all-around solution for small to medium projects.
 
 ## [The Hugo Cocktail](http://www.sitepoint.com/architecture-sass-project/)
-It's maybe an overkill for small projects, but you never know how big it's gonna get! if you stay positive you'd better be prepared. 
+It may be an overkill for small projects, but you never know how big it's gonna get! if you stay positive you'd better be prepared.
