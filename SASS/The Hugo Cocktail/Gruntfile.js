@@ -1,12 +1,6 @@
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    watch: {
-      sass: {
-        files: ['**/*.{scss,sass}'],
-        tasks: ['sass:dist']
-      }
-    },
     sass: {
       options: {
         sourceMap: false, // true if you need it
@@ -17,9 +11,23 @@ module.exports = function(grunt) {
           'dist/result.css': 'main.scss'
         }
       }
+    },
+    autoprefixer:{
+      dist:{
+        files:{
+          'dist/result.css':'dist/result.css'
+        }
+      }
+    },
+    watch: {
+      sass: {
+        files: ['**/*.{scss,sass}'],
+        tasks: ['sass:dist', 'autoprefixer']
+      }
     }
   });
-  grunt.registerTask('build', ['sass:dist']);
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.registerTask('build', ['sass:dist', 'autoprefixer']);
 };

@@ -1,5 +1,4 @@
-# LESS/SASS Structures
-3 structures to kick start you LESS or SASS based project
+# Three little structures
 
 Based on the patterns described [here](http://modernweb.com/2014/04/14/organizing-your-css-code-for-preprocessors/), I've chosen three structures that looks better IMHO.
 
